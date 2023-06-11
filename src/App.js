@@ -42,22 +42,6 @@ function App() {
 
   return (
     <>
-      {/* <div>lorem40</div> */}
-      {/* <Router>
-        <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} />
-        <Alert alert= {alert}/>
-        <div className="container my-3">
-          <Routes>
-          <Route path="/" element={<About />} >
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path='/'>
-                
-              </Route>
-          </Routes>
-        </div>
-      </Router> */}
       <BrowserRouter>
       <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} />
         <Alert alert= {alert}/>
